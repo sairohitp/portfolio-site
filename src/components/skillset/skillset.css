@@ -1,0 +1,51 @@
+.skillfather {
+    width: var(--container-width-lg);
+    margin: 15px auto;
+}
+
+.skilldivbox {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto auto;
+}
+
+.skillcol {
+    display: block;
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    padding: 10px;
+}
+
+#skilheader {
+    text-align: center;
+}
+
+.skillerimg {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    border-radius: 15px;
+}
+
+.classicflextop {
+    display: flex;
+    gap: 10px;
+    align-items: top;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px 0px 15px 0px;
+}
+
+.classicflextop h4 {
+    margin: 0px;
+}
+
+.classicflexskillitems {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px;
+}

@@ -1,0 +1,49 @@
+#socialhandler {
+  margin: 20px 0px;
+  justify-content: space-between;
+}
+
+.sendboxhandler {
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 10px;
+}
+
+.fa-circle {
+  text-shadow: -1px 0 var(--colorblack), 0 1px var(--colorblack), 1px 0 var(--colorblack), 0 -1px var(--colorblack);
+}
+
+.icon {
+  color: var(--colorblack);
+  transition: all 0.1s ease-in-out;
+  font-size: 18px;
+}
+
+.icon:hover {
+  color: var(--colorwhite);
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.fa-stack {
+  color: var(--colorwhite);
+  transition: all 0.1s ease-in-out;
+  font-size: 18px;
+}
+
+.fa-stack:hover {
+  color: var(--colorblack);
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.primaryBTN {
+  height: 38px;
+  transition: all 0.1s ease-in-out;
+}
+
+.primaryBTN:hover {
+  background-color: var(--colorblack);
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}

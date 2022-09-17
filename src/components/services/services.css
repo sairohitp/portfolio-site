@@ -1,0 +1,50 @@
+#servicegrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto auto);
+    gap: 30px;
+}
+
+.servicegridfather {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.servicetile {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    padding: 10px 20px;
+    margin: 15px 0px;
+}
+
+.servicetile h2 {
+    margin: 20px 0px;
+}
+
+.servicetile img {
+    height: auto;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.servicetile p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.classicflexservice {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: nowrap;
+    margin: 10px 0px;
+}
+
+.classicflexservice h4 {
+    margin: 0px 0px 10px 0px;
+    line-height: 1;
+}

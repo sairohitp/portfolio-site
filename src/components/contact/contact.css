@@ -1,0 +1,90 @@
+.contactfather {
+    padding: 10px 30px 0px 0px !important;
+    background-color: lavender;
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    background-image: url("../../assets/bgs/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#leftext {
+    width: fit-content;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#leftext h2,
+#leftext p {
+    text-align: center;
+    line-height: 1;
+}
+
+#mscott {
+    width: 450px;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+.fa-paper-plane {
+    font-size: 18px;
+}
+
+.submitbtn {
+    padding: 10px 10px;
+}
+
+#formside {
+    width: 100%;
+}
+
+#formside h2 {
+    text-align: center;
+    line-height: 1 !important;
+}
+
+form {
+    font-family: inherit;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: right;
+    width: 100%;
+    display: table;
+    margin: 0px;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    box-sizing: border-box;
+    text-align: right;
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    resize: none;
+    margin: 5px 0px;
+}
+
+table,
+tr {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}

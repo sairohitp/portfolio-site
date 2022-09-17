@@ -1,0 +1,10 @@
+.tagbox {
+    text-align: center;
+    padding: 5px 50px;
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    width: fit-content;
+    margin: 50px auto 15px auto;
+}

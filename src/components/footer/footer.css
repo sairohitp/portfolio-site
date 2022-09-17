@@ -1,0 +1,44 @@
+.footerfather {
+    padding: 30px 30px !important;
+    background-color: var(--colorwhite);
+    border: 1px solid var(--colorblack);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+
+    margin-top: 60px;
+
+    background-image: url("../../assets/bgs/footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerfather h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footerfather h4 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.footerSocials {
+    width: fit-content;
+    margin: 0px auto 30px auto;
+    gap: 80px !important;
+}
+
+.footerLinks {
+    width: fit-content;
+    margin: 30px auto 0px auto;
+    gap: 30px !important;
+    transition: all 0.1s ease-in-out;
+}
+
+.footerLinks a:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
