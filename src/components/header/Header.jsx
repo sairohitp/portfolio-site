@@ -20,15 +20,15 @@ const Header = () => {
             <i>Web Developer • Programmer • Designer</i>
           </h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Nisipariatur nemo est veniam quae. 
-            Aliquam iste obcaecati voluptatem quout dolor ad tenetur, 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Nisipariatur nemo est veniam quae.
+            Aliquam iste obcaecati voluptatem quout dolor ad tenetur,
             debitis exfacere maiores harum, cum odio.
-            
-            <br/><br/>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Nisipariatur nemo est veniam quae. 
-            Aliquam iste obcaecati voluptatem quout dolor ad tenetur, 
+
+            <br /><br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Nisipariatur nemo est veniam quae.
+            Aliquam iste obcaecati voluptatem quout dolor ad tenetur,
             debitis exfacere maiores harum, cum odio.
           </p>
           <Socials />
